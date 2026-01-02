@@ -1,0 +1,49 @@
+{
+    "albion": {
+        "name": "Albion",
+        "skills": [
+            "Athletics",
+            "Climb",
+            "Cool",
+            "Endurance",
+            "Intimidate",
+            "Lore (Albion)",
+            "Lore (Beasts or Monsters)",
+            "Melee (Basic)",
+            "Melee (Polearm)",
+            "Outdoor Survival",
+            "Ranged (Throwing)",
+            "Stealth (Rural)"
+        ],
+        "talents": [
+            "Resistance (Mutation)",
+            "Stone Soup",
+            "Strider (Marshes)",
+            "Very Strong, Very Resilient",
+            "Warrior Born"
+        ]
+    },
+    "strigany": {
+        "name": "Strigany",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Charm",
+            "Entertain (Sing or Storytelling)",
+            "Gossip",
+            "Haggle",
+            "Language (Any)",
+            "Lore (Local)",
+            "Lore (Spirits)",
+            "Perform (Any)",
+            "Ride (Horse)",
+            "Play (Any)"
+        ],
+        "talents": [
+            "Animal Affinity, Perfect Pitch",
+            "Seasoned Traveller",
+            "Sharp, Suave",
+            2
+        ]
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "remas": {
+        "name": "Remas (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Merchants)",
+            1
+        ]
+    },
+    "luccini": {
+        "name": "Luccini (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Myrmidians)",
+            1
+        ]
+    },
+    "trantio": {
+        "name": "Trantio (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Artists)",
+            1
+        ]
+    },
+    "pavona": {
+        "name": "Pavona (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Carpenters)",
+            1
+        ]
+    },
+    "verezzo": {
+        "name": "Verezzo (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Politicians)",
+            1
+        ]
+    },
+    "sartosa": {
+        "name": "Sartosa (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Pirates)",
+            1
+        ]
+    },
+    "miragliano": {
+        "name": "Miragliano (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Rat Catchers)",
+            1
+        ]
+    },
+    "tobaro": {
+        "name": "Tobaro (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Miners)",
+            1
+        ]
+    },
+    "new-world-colonies": {
+        "name": "New World Colonies (Tilean)",
+        "skills": [
+            "Art (Any)",
+            "Bribery",
+            "Charm",
+            "Consume Alcohol",
+            "Entertain (Storytelling)",
+            "Gossip",
+            "Language (Estalian)",
+            "Language (Bretonnian)",
+            "Lore (Politics)",
+            "Lore (City State)",
+            "Sail",
+            "Sleight of Hand"
+        ],
+        "talents": [
+            "Gregarious, Random Talent",
+            "Read/Write, Random Talent",
+            "Sharp, Suave",
+            "Etiquette (Adventurers)",
+            1
+        ]
+    }
+}

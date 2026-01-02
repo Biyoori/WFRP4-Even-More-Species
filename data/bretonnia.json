@@ -1,0 +1,674 @@
+{
+    "languillian-peasant": {
+        "name": "L’Anguillian (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Deal Maker, Old Salt",
+            1
+        ]
+    },
+    "languillian-nobility": {
+        "name": "L’Anguillian (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Deal Maker, Old Salt",
+            1
+        ]
+    },
+    "aquitaine-peasant": {
+        "name": "Aquitaine (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Coolheaded",
+            1
+        ]
+    },
+    "aquitaine-nobility": {
+        "name": "Aquitaine (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Coolheaded",
+            1
+        ]
+    },
+    "artois-peasant": {
+        "name": "Artois (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Hatred (Beastmen)",
+            "Very Resilient, Very Strong"
+        ]
+    },
+    "artois-nobility": {
+        "name": "Artois (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Hatred (Beastmen)",
+            "Very Resilient, Very Strong"
+        ]
+    },
+    "bastonne-peasant": {
+        "name": "Bastonne (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Stout-Hearted",
+            1
+        ]
+    },
+    "bastonne-nobility": {
+        "name": "Bastonne (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Stout-Hearted",
+            1
+        ]
+    },
+    "bordeleaux-peasant": {
+        "name": "Bordeleaux (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Carouser, Sea Legs",
+            1
+        ]
+    },
+    "bordeleaux-nobility": {
+        "name": "Bordeleaux (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Carouser, Sea Legs",
+            1
+        ]
+    },
+    "brionne-peasant": {
+        "name": "Brionne (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Artistic, Perfect Pitch",
+            1
+        ]
+    },
+    "brionne-nobility": {
+        "name": "Brionne (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Artistic, Perfect Pitch",
+            1
+        ]
+    },
+    "carcassonne-peasant": {
+        "name": "Carcassonne (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Warrior Born",
+            1
+        ]
+    },
+    "carcassonne-nobility": {
+        "name": "Carcassonne (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Warrior Born",
+            1
+        ]
+    },
+    "couronne-peasant": {
+        "name": "Couronne (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Craftsman (Ferrier), Trick Riding",
+            1
+        ]
+    },
+    "couronne-nobility": {
+        "name": "Couronne (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Craftsman (Ferrier), Trick Riding",
+            1
+        ]
+    },
+    "gisoreux-peasant": {
+        "name": "Gisoreux (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Seasoned Traveler, Strider (Mountains)",
+            1
+        ]
+    },
+    "gisoreux-nobility": {
+        "name": "Gisoreux (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Seasoned Traveler, Strider (Mountains)",
+            1
+        ]
+    },
+    "lyonesse-peasant": {
+        "name": "Lyonesse (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Cat-tongued, Schemer",
+            1
+        ]
+    },
+    "lyonesse-nobility": {
+        "name": "Lyonesse (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Cat-tongued, Schemer",
+            1
+        ]
+    },
+    "montfort-peasant": {
+        "name": "Montfort (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Hardy",
+            1
+        ]
+    },
+    "montfort-nobility": {
+        "name": "Montfort (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Hardy",
+            1
+        ]
+    },
+    "mousillon-peasant": {
+        "name": "Mousillon (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Strong-Minded",
+            1
+        ]
+    },
+    "mousillon-nobility": {
+        "name": "Mousillon (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Strong-Minded",
+            1
+        ]
+    },
+    "parravon-peasant": {
+        "name": "Parravon (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Animal Affinity, Sixth Sense",
+            1
+        ]
+    },
+    "parravon-nobility": {
+        "name": "Parravon (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Animal Affinity, Sixth Sense",
+            1
+        ]
+    },
+    "quenelles-peasant": {
+        "name": "Quenelles (Peasantry)",
+        "skills": [
+            "Animal Care",
+            "Charm Animal",
+            "Cool",
+            "Endurance",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Agriculture)",
+            "Melee (Basic)",
+            "Ranged (Bow)",
+            "Ride (Horse)",
+            "Trade (Farmer)"
+        ],
+        "talents": [
+            "Nimble Fingered, Very Resilient",
+            "Stone Soup",
+            "Strong Back",
+            "Hatred (Greenskins)",
+            1
+        ]
+    },
+    "quenelles-nobility": {
+        "name": "Quenelles (Nobility)",
+        "skills": [
+            "Charm",
+            "Charm Animal",
+            "Cool",
+            "Language (Any)",
+            "Gossip",
+            "Haggle",
+            "Lore (Dukedom)",
+            "Lore (Politics)",
+            "Melee (Basic or Two-handed)",
+            "Pray",
+            "Ride (Horse)",
+            "Leadership"
+        ],
+        "talents": [
+            "Noble Blood",
+            "Read/Write",
+            "Suave, Warrior Born",
+            "Hatred (Greenskins)",
+            1
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "species": {
+        "ogre": "Ogre"
+    },
+
+    "characteristics": {
+        "ogre": {
+            "ag": "2d10+15",
+            "bs": "2d10+10",
+            "dex": "2d10+10",
+            "fel": "2d10+10",
+            "i": "2d10",
+            "int": "2d10+10",
+            "s": "2d10+35",
+            "t": "2d10+35",
+            "wp": "2d10+20",
+            "ws": "2d10+20"
+        }
+    },
+
+    "age": {
+        "ogre": "5d10+15"
+    },
+
+    "height": {
+        "die": "1d10",
+        "feet": 4,
+        "inches": 3
+    },
+
+    "extra": {
+        "ogre": 1
+    },
+
+    "fate": {
+        "ogre": 0
+    },
+
+    "res": {
+        "ogre": 3
+    },
+
+    "mov": {
+        "ogre": 6
+    },
+
+    "talents": {
+        "ogre": [
+            "Dirty Fighting",
+            "Resistance (Chaos)",
+            "Resistance (Poison (Ingested))",
+            "Very Resilient, Very Strong",
+            "Vice (Food)",
+            "Large"
+        ]
+    },
+
+    "skills": {
+        "ogre": [
+            "Athletics",
+            "Consume Alcohol",
+            "Endurance",
+            "Entertain (Storytelling)",
+            "Intimidate",
+            "Language (Grumbarth)",
+            "Lore (Ogres)",
+            "Melee (Basic)",
+            "Melee (Brawling)",
+            "Navigation",
+            "Outdoor Survival",
+            "Track"
+        ]
+    }
+}

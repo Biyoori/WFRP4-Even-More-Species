@@ -1,18 +1,37 @@
+import { registerSettings } from "./settings.mjs";
+
 const subspeciesPacks = [
     "bretonnia.json",
     "tilea.json",
-    "other.json"
+    "other.json",
 ];
 
 Hooks.once('init', async () => {
-    const promises = subspeciesPacks.map(f => fetch(`modules/wfrp4e-nations-of-mankind-subspecies-pack/data/${f}`).then(res => res.json()));
+    await registerSettings();
+
+    const promises = subspeciesPacks.map(f => fetch(`modules/wfrp4e-even-more-species/data/${f}`).then(res => res.json()));
     const datasets = await Promise.all(promises);
 
+    const customDatasets = game.settings.get("wfrp4e-even-more-species", "customSubspeciesData") || {};
+
+    datasets.push(customDatasets);
+
     for (const data of datasets) {
-        foundry.utils.mergeObject(game.wfrp4e.config.subspecies.human, data);
+        for (const [subraceKey, subraceData] of Object.entries(data)) {
+            if (!subraceData.species) {
+                game.wfrp4e.config.subspecies.human[subraceKey] = subraceData;
+                continue;
+            }
+            const speciesKey = subraceData.species.toLowerCase();
+            if (!game.wfrp4e.config.subspecies[speciesKey]) {
+                game.wfrp4e.config.subspecies[speciesKey] = {};
+            }
+            const {species, ...rest} = subraceData;
+            game.wfrp4e.config.subspecies[speciesKey][subraceKey] = rest;
+        }
     }
 
-    fetch("modules/wfrp4e-nations-of-mankind-subspecies-pack/data/ogres.json")
+    fetch("modules/wfrp4e-even-more-species/data/ogres.json")
     .then(res => res.json())
     .then(data => {
         const ogreData = data
@@ -31,5 +50,4 @@ function _loadOgreData(ogreData) {
     foundry.utils.mergeObject(game.wfrp4e.config.speciesExtra, ogreData.extra);
     foundry.utils.mergeObject(game.wfrp4e.config.speciesAge, ogreData.age);
     foundry.utils.mergeObject(game.wfrp4e.config.speciesHeight, ogreData.height);
-    
 }

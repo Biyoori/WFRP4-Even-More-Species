@@ -1,0 +1,49 @@
+
+.add-subspecies-app .skills-list-wrapper,
+.add-subspecies-app .talents-list-wrapper {
+    margin-top: 0.5rem;
+    padding: 1.2rem 1.2rem 0.7rem 1.2rem;
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 18px;
+    gap: 0.5rem;
+}
+
+
+.add-subspecies-app .skills-list,
+.add-subspecies-app .talents-list {
+    list-style: none;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    background: rgb(49 44 39 / 35%);
+    border-radius: 8px;
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+}
+
+
+
+.add-subspecies-app .skills-list li,
+.add-subspecies-app .talents-list li {
+    color: #e0d0c0;
+    border-radius: 6px;
+    padding: 0.22rem 0.8rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    box-shadow: 2px 4px 10px 0px #00000036;
+    border: 1px solid rgba(0,0,0,0.07);
+    transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+    backdrop-filter: blur(2px);
+    user-select: text;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+
+
+.add-subspecies-app .skills-list li:hover,
+.add-subspecies-app .talents-list li:hover {
+    background: rgba(255,255,255,0.22);
+    color: #1a1a1a;
+}

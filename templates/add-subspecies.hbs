@@ -1,0 +1,53 @@
+<form class="flexcol" autocomplete="off">
+    <fieldset class="flexcol" style="border: none;">
+        <legend style="color: #d0b8a3;">Add Custom Subspecies</legend>
+
+        <div class="flexrow" style="gap:1rem;">
+            <label for="species-select" style="flex:0;">Species</label>
+            <select id="species-select" class="species-select" name="species">
+                <option value="" disabled selected>Select Species</option>
+                {{selectOptions speciesOptions 
+                selected=species localize=true}}
+            </select>
+        </div>
+
+        <div class="flexrow" style="gap:1rem;">
+            <label for="subspecies-name" style="flex:0;">Name</label>
+            <input id="subspecies-name" name="name" type="text" placeholder="Subspecies Name" class="subspecies-name-input" value="{{name}}">
+        </div>
+    
+        <div class="flexcol skills-list-wrapper">
+            <div class="flexrow" style="gap:0.5rem;">
+                <input class="subspecies-skill-input" name="skills[]" type="text" placeholder="Skill" style="flex-grow:3" list="skills-datalist">
+                <button type="button" class="add-subspecies-skill" title="Add Skill" style="flex-grow:1;">+ Add Skill</button>
+            </div>
+            <ul class="flexcol skills-list">
+                {{#each skills}}
+                    <li class="subspecies-list-item" data-value="{{this}}">{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="flexcol talents-list-wrapper">
+            <div class="flexrow" style="gap:0.5rem;">
+                <input class="subspecies-talent-input" name="talents[]" type="text" placeholder="Talent" style="flex-grow:3">
+                <button type="button" class="add-subspecies-talent" title="Add Talent" style="flex-grow:1;">+ Add Talent</button>
+            </div>
+            <ul class="flexcol talents-list">
+                {{#each talents}}
+                    <li class="subspecies-list-item" data-value="{{this}}">{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="flexrow" style="gap:1rem;">
+            <label for="random-talents" style="flex:0;">Random Talents</label>
+            <input id="random-talents" class="random-talents" name="randomTalents" type="range" min="0" max="10" value="{{randomTalents}}" style="border: none; box-shadow: none; background: transparent;">
+            <span class="random-talents-value" style="flex:0;">{{randomTalents}}</span>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+            <button type="button" class="submit-subspecies-button" style="width:50%;">Submit</button>
+        </div>
+    </fieldset>
+</form>

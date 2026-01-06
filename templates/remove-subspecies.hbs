@@ -1,0 +1,13 @@
+<form class="flexcol" autocomplete="off">
+    <fieldset class="flexcol" style="border: none;">
+        <legend style="color: #d0b8a3;">Remove Custom Subspecies</legend>
+
+        <select class="subspecies-select" name="subspecies" size="8">
+            {{#each subspeciesData}}
+                <option value="{{@key}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+        <button class="remove-subspecies-button" type="button" style="margin-top: 1em;">Remove</button>
+
+    </fieldset>
+</form>

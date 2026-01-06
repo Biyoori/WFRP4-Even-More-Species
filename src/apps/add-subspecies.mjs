@@ -117,7 +117,7 @@ export class AddSubspecies extends FormApplication {
 
         const error = validators.find(v => v !== true);
         if (error) {
-            ui.notifications.error(error);
+            ui.notifications.warn(error);
             return;
         }
 

@@ -1,4 +1,5 @@
 import { AddSubspecies } from "./apps/add-subspecies.mjs";
+import { RemoveSubspecies } from "./apps/remove-subspecies.mjs";
 
 export async function registerSettings() {
     await game.settings.registerMenu("wfrp4e-even-more-species", "addSubspecies", {
@@ -9,11 +10,19 @@ export async function registerSettings() {
         restricted: true
     });
 
-    game.settings.register("wfrp4e-even-more-species", "customSubspeciesData", {
+    await game.settings.register("wfrp4e-even-more-species", "customSubspeciesData", {
         name: "Custom Subspecies Data",
         scope: "world",
         config: false,
         type: Object,
         default: {}
+    });
+
+    await game.settings.registerMenu("wfrp4e-even-more-species", "removeSubspecies", {
+        name: "Remove Custom Subspecies",
+        label: "Remove Subspecies",
+        hint: "Remove additional subspecies options from the species selection.",
+        type: RemoveSubspecies,
+        restricted: true
     });
 }

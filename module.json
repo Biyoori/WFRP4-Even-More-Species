@@ -41,7 +41,8 @@
     "src/wfrp4e-even-more-species.mjs"
   ],
   "styles": [
-    "css/add-subspecies.css"
+    "css/add-subspecies.css",
+    "css/remove-subspecies.css"
   ],
   "relationships": {
     "systems": [

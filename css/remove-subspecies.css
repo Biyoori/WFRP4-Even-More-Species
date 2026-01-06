@@ -1,0 +1,10 @@
+.remove-subspecies-app .subspecies-select {
+    width: 100%;
+    height: 8em;
+    font-size: 1.5em;
+}
+
+.remove-subspecies-app .subspecies-select option:checked {
+    background-color: #6b4f3d;
+    color: #f0e0d0;
+}

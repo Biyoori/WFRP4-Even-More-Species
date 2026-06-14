@@ -37,6 +37,13 @@ Hooks.once('init', async () => {
         const ogreData = data
         _loadOgreData(ogreData);
     });
+
+    fetch("modules/wfrp4e-even-more-species/data/gnomes.json")
+    .then(res => res.json())
+    .then(data => {
+        const gnomeData = data
+        _loadGnomeData(gnomeData);
+    });
 });
 
 function _loadOgreData(ogreData) {
@@ -50,4 +57,17 @@ function _loadOgreData(ogreData) {
     foundry.utils.mergeObject(game.wfrp4e.config.speciesExtra, ogreData.extra);
     foundry.utils.mergeObject(game.wfrp4e.config.speciesAge, ogreData.age);
     foundry.utils.mergeObject(game.wfrp4e.config.speciesHeight, ogreData.height);
+}
+
+function _loadGnomeData(gnomeData) {
+    foundry.utils.mergeObject(game.wfrp4e.config.species, gnomeData.species);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesTalents, gnomeData.talents);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesSkills, gnomeData.skills);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesCharacteristics, gnomeData.characteristics);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesFate, gnomeData.fate);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesRes, gnomeData.res);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesMovement, gnomeData.mov);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesExtra, gnomeData.extra);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesAge, gnomeData.age);
+    foundry.utils.mergeObject(game.wfrp4e.config.speciesHeight, gnomeData.height);
 }

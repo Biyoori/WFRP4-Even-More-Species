@@ -1,0 +1,74 @@
+{
+    "species": {
+        "gnome": "Gnome"
+    },
+
+    "characteristics": {
+        "gnome": {
+            "ag": "2d10+30",
+            "bs": "2d10+10",
+            "dex": "2d10+30",
+            "fel": "2d10+15",
+            "i": "2d10+30",
+            "int": "2d10+30",
+            "s": "2d10+10",
+            "t": "2d10+15",
+            "wp": "2d10+40",
+            "ws": "2d10+15"
+        }
+    },
+
+    "age": {
+        "gnome": "1d10+20"
+    },
+
+    "height": {
+        "die": "3d10+100",
+        "feet": 4,
+        "inches": 3
+    },
+
+    "extra": {
+        "gnome": 2
+    },
+
+    "fate": {
+        "gnome": 2
+    },
+
+    "res": {
+        "gnome": 0
+    },
+
+    "mov": {
+        "gnome": 3
+    },
+
+    "talents": {
+        "gnome": [
+            "Read/Write, Fisherman",
+            "Beneath Notice, Suffuse with Ulgu",
+            "Luck, Mimic",
+            "Night Vision",
+            "Second Sight, Sixth Sense",
+            "Small"
+        ]
+    },
+
+    "skills": {
+        "gnome": [
+            "Channelling (Ulgu)",
+            "Charm",
+            "Consume Alcohol",
+            "Dodge",
+            "Entertain (Any)",
+            "Gossip",
+            "Haggle",
+            "Language (Ghassally)",
+            "Language (Magick)",
+            "Language (Wastelander)",
+            "Outdoor Survival",
+            "Stealth (Any)"
+        ]
+    }
+}
